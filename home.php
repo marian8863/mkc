@@ -12,6 +12,8 @@ include_once("menu.php");
 ?>
 <!--END DON'T CHANGE THE ORDER-->
 
+
+
 <div class="banner-carousel banner-carousel-2 mb-0">
   <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg4.jpg)">
     <div class="container ">
@@ -59,7 +61,16 @@ include_once("menu.php");
   </div>
 </div>
 
+
+
+
 <section class="call-to-action no-padding">
+    <!-- <img src="images/balloon1.png" class="balloon" alt="Balloon 1">
+    <img src="images/balloon1.png" class="balloon" alt="Balloon 2">
+    <img src="images/balloon1.png" class="balloon" alt="Balloon 3">
+    <img src="images/balloon1.png" class="balloon" alt="Balloon 4">
+    <img src="images/balloon1.png" class="balloon" alt="Balloon 5">
+    <img src="images/balloon1.png" class="balloon" alt="Balloon 6"> -->
   <div class="container">
     <div class="action-style-box">
         <div class="row">

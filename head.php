@@ -78,6 +78,36 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.css" />
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4/dist/fancybox.umd.js"></script>
 
+
+<style>
+          /* Balloon styling with PNG images */
+          .balloon {
+            position: absolute;
+            bottom: -150px;
+            width: 100px;
+            height: auto;
+            opacity: 0.9;
+            animation: floatBalloon 10s infinite linear;
+        }
+        
+
+        /* Colors and random sizes for balloons */
+        .balloon:nth-child(1) { left: 10%; animation-duration: 8s; transform: scale(0.8); }
+        .balloon:nth-child(2) { left: 25%; animation-duration: 10s; transform: scale(1.1); }
+        .balloon:nth-child(3) { left: 40%; animation-duration: 9s; transform: scale(0.9); }
+        .balloon:nth-child(4) { left: 55%; animation-duration: 11s; transform: scale(1.2); }
+        .balloon:nth-child(5) { left: 70%; animation-duration: 9s; transform: scale(0.7); }
+        .balloon:nth-child(6) { left: 85%; animation-duration: 12s; transform: scale(1); }
+
+
+        @keyframes floatBalloon {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-120vh); }
+        }
+    </style>
 </head>
+
 <body>
   <div class="body-inner">
+        <!-- Real balloon images with animation -->
+   
