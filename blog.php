@@ -18,7 +18,7 @@ include_once("main_query_blog.php");
     width: 100%; 
     height: 100%; 
     background: url('images/load.gif') no-repeat center center/cover;
-    background-size: 20px 20px; 
+    background-size: 80px 80px; 
     display: block; 
     position: absolute; 
     top: 0; 
@@ -32,7 +32,7 @@ include_once("main_query_blog.php");
 
 .img-loaded {
     opacity: 1; 
-    transition: opacity 10s ease-in-out; 
+    transition: opacity 5s ease-in-out; 
 
 }
 
@@ -93,9 +93,9 @@ function removeLoadingSpinner(img) {
                 <?php if (!empty($recent_posts)): ?>
                     <?php foreach ($recent_posts as $post): ?>
                         <li class="d-flex align-items-center">
-                            <div class="posts-thumb">
+                            <div class="posts-thumb image-container">
                                 <a href="?site_name=<?php echo urlencode($post['site_name']); ?>&post_id=<?php echo $post['blog_id']; ?>">
-                                    <img loading="lazy" src="images/news/project1/<?php echo $post['cover_img']; ?>">
+                                    <img loading="lazy" src="images/news/project1/<?php echo $post['cover_img']; ?>"  alt="img" class=" img-loading" onload="removeLoadingSpinner(this)">
                                 </a>
                             </div>
                             <div class="post-info">
@@ -206,9 +206,9 @@ function removeLoadingSpinner(img) {
                                       $visible_images = array_slice($blog['gallery'], 0, 4); // Show first 4 images
                                       foreach ($visible_images as $index => $gallery_img): ?>
                                       <div class="col-6 col-lg-4 col-md-6 shuffle-item">
-                                          <div class="project-img-container">
+                                          <div class="project-img-container image-container">
                                               <a href="images/news/project1/<?php echo $gallery_img; ?>" data-fancybox="gallery-<?php echo $blog_id; ?>" data-caption="Image <?php echo $index + 1; ?>">
-                                                  <img class="img-fluid" src="images/news/project1/<?php echo $gallery_img; ?>" alt="project-img">
+                                                  <img  src="images/news/project1/<?php echo $gallery_img; ?>"  alt="img" class="img-fluid img-loading" onload="removeLoadingSpinner(this)">
                                               </a>
                                           </div>
                                       </div>
