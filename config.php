@@ -18,6 +18,7 @@ session_start();
 //   }else{
 //   }
   //$con = mysqli_connect('localhost', 'root', '', 'masterkingconstructions');
+  
   $con = mysqli_connect('localhost','c1987705c', '7u33gvqUWtktw25', 'c1987705c_masterkingconstructions');
   // variable declaration
 	$username = "";
