@@ -10,7 +10,8 @@
 <meta property="og:title" content="Master King Constructions - Building Your Dreams">
 <meta property="og:description" content="Master King Constructions delivers exceptional construction services focusing on Quantity, Quality, and Speed. Trust us for your next project.">
 <!-- <meta property="og:image" content="images/logo-or-image.jpg"> -->
-<meta property="og:url" content="https://www.masterkingconstructions.com/images/share_logo.png">
+<meta property="og:image" content="https://www.masterkingconstructions.com/images/share_logo.png">
+
 
     <title>Birthday Wishes | MKC</title>
     <link rel="icon" type="image/png" href="images/favicon1.png">
