@@ -1,157 +1,511 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Master King Constructions fulfills your expectations by emphasizing Quantity, Quality, and Speed. Trust us to deliver excellence in every project.">
-<meta name="keywords" content="Master King Constructions, construction services, quality construction, reliable contractor, building projects, construction management, renovation, residential construction, commercial construction">
-<meta name="author" content="Master King Constructions">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="Master King Constructions - Building Your Dreams">
-<meta property="og:description" content="Master King Constructions delivers exceptional construction services focusing on Quantity, Quality, and Speed. Trust us for your next project.">
-<!-- <meta property="og:image" content="images/logo-or-image.jpg"> -->
-<meta property="og:image" content="https://www.masterkingconstructions.com/images/share_logo.png">
+<!-- BLOCK#1 START DON'T CHANGE THE ORDER-->
+<?php
+$title = "Home | MKC.";
+
+include_once("head.php");
+include_once("menu.php");
+
+// $u_n = $_SESSION['user']['username'];
+// $u_t = $_SESSION['user']['user_type'];
+// $u_p = $_SESSION['user']['profile'];
+
+?>
+<!--END DON'T CHANGE THE ORDER-->
 
 
-    <title>Birthday Wishes | MKC</title>
-    <link rel="icon" type="image/png" href="images/favicon1.png">
-    <style>
-        /* General styling */
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            color: #fff;
-        }
 
-        /* Full-screen background image */
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('images/construction-background.jpg') no-repeat center center/cover;
-            z-index: -1;
-            filter: brightness(0.7); /* Darken background for contrast */
-        }
+<div class="banner-carousel banner-carousel-2 mb-0">
+  <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg4.jpg)">
+    <div class="container ">
+        <div class="box-slider-content">
+          <div class="box-slider-text">
+              <h2 class="box-slide-title">5 Years Of Excellence In</h2>
+              <h3 class="box-slide-sub-title">Quantity, Quality & Quickly</h3>
+              <!-- <p class="box-slide-description"> -->
+                <!-- <div class="countdown d-flex " >
+                  <div>
+                    <h3>482</h3>
+                    <h4>Quantity</h4>
+                  </div>
+                  <div>
+                    <h3>6</h3>
+                    <h4>Quality</h4>
+                  </div>
+                  <div>
+                    <h3 >49</h3>
+                    <h4>Quickly</h4>
+                  </div>
+                </div> -->
+              <!-- </p> -->
+              <p>
+                <a href="service" class="slider btn btn-primary">Our Service</a>
+              </p>
+          </div>
+        </div>
+    </div>
+  </div>
 
-        /* Container styling */
-        .container {
-            z-index: 2;
-            width: 80%;
-            max-width: 600px;
-            margin: 100px auto;
-            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-            position: relative;
-        }
+  <div class="banner-carousel-item" style="background-image:url(images/slider-main/bg5.jpg)">
+    <div class="slider-content text-left">
+        <div class="container">
+          <div class="box-slider-content">
+              <div class="box-slider-text">
+                <h2 class="box-slide-title">MasterKing Constructions</h2>
+                <h3 class="box-slide-sub-title">Attitude is the Foundation to Success</h3>
+                <p class="box-slide-description">Most valuable quote is, Understanding the basics of building construction helps to contract a building project successfully.</p>
+                <p><a href="blog" class="slider btn btn-primary" aria-label="about-us">View Projects</a></p>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
 
-        /* Text styling */
-        .number {
-            margin: 0;
-            animation: bounce 1.2s infinite;
-        }
 
-        .message {
-            font-size: 28px;
-            margin: 20px 0;
-            color: #fff;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 2px solid;
-            width: 0; /* Start with no width */
-            animation: typing 4s steps(30, end) infinite alternate, blink-caret 0.75s step-end infinite; /* Continuous typing and caret blinking */
-        }
 
-        .signature {
-            font-size: 20px;
-            color: #ddd;
-            margin-top: 20px;
-        }
 
-        /* Button styling */
-        .button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: blue; /* Button background color */
-            color: white; /* Button text color */
-            border: none; /* Remove border */
-            border-radius: 5px; /* Rounded corners */
-            cursor: pointer; /* Pointer cursor on hover */
-            font-size: 16px; /* Font size */
-            transition: background-color 0.3s; /* Transition effect */
-            text-decoration: none; 
-            font-weight: bold;
-        }
-
-        .button:hover {
-            background-color: darkblue; /* Darker background on hover */
-        }
-
-        /* Balloon styling with PNG images */
-        .balloon {
-            position: absolute;
-            bottom: -150px;
-            width: 100px;
-            height: auto;
-            opacity: 0.9;
-            animation: floatBalloon 10s infinite linear;
-        }
-        
-
-        /* Colors and random sizes for balloons */
-        .balloon:nth-child(1) { left: 10%; animation-duration: 8s; transform: scale(0.8); }
-        .balloon:nth-child(2) { left: 25%; animation-duration: 10s; transform: scale(1.1); }
-        .balloon:nth-child(3) { left: 40%; animation-duration: 9s; transform: scale(0.9); }
-        .balloon:nth-child(4) { left: 55%; animation-duration: 11s; transform: scale(1.2); }
-        .balloon:nth-child(5) { left: 70%; animation-duration: 9s; transform: scale(0.7); }
-        .balloon:nth-child(6) { left: 85%; animation-duration: 12s; transform: scale(1); }
-
-        /* Keyframes for animations */
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        @keyframes typing {
-            0% { width: 0; }
-            80% { width: 100%; }
-            100% { width: 100%; }
-        }
-
-        @keyframes blink-caret {
-            from, to { border-color: transparent; }
-            50% { border-color: white; }
-        }
-
-        @keyframes floatBalloon {
-            0% { transform: translateY(0); }
-            100% { transform: translateY(-120vh); }
-        }
-    </style>
-</head>
-<body>
-    <!-- Real balloon images with animation -->
-    <img src="images/balloon1.png" class="balloon" alt="Balloon 1">
+<section class="call-to-action no-padding">
+    <!-- <img src="images/balloon1.png" class="balloon" alt="Balloon 1">
     <img src="images/balloon1.png" class="balloon" alt="Balloon 2">
     <img src="images/balloon1.png" class="balloon" alt="Balloon 3">
     <img src="images/balloon1.png" class="balloon" alt="Balloon 4">
     <img src="images/balloon1.png" class="balloon" alt="Balloon 5">
-    <img src="images/balloon1.png" class="balloon" alt="Balloon 6">
+    <img src="images/balloon1.png" class="balloon" alt="Balloon 6"> -->
+  <div class="container">
+    <div class="action-style-box">
+        <div class="row">
+          <div class="col-md-8 text-center text-md-left">
+              <div class="call-to-action-text">
+                <h1 class="action-title">Master King Constructions for you since 2019</h1>
+                <!-- <small style="color:white">Our whole achievement is to follow in 3Qs [Quantity, Quality and Quickly]</small> -->
+              </div>
+          </div><!-- Col end -->
+          <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
+              <div class="call-to-action-btn">
+                <a class="btn btn-primary"  href="contact">Request Quote</a>
+              </div>
+          </div><!-- col end -->
+        </div><!-- row end -->
+    </div><!-- Action style box -->
+  </div><!-- Container end -->
+</section><!-- Action end -->
 
-    <!-- Container for the main content -->
-    <div class="container">
-        <p class="number"><img src="images/number.png" alt="33" style="width: 280px; height: auto;"></p>
-        <p class="message">Happy Birthday, Manojkumar!</p>
-        <p class="signature">- With love from MasterKing Constructions -</p>
-        <!-- Button for viewing gift -->
-        <a href="home"  class="button">View Your Gift</a>
+<section id="ts-features" class="ts-features pb-2">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/service1.png" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="service-single.html">Planing</a></h3>
+                    <p>First we create an efficient plan of how to work.</p>
+                    <!-- <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a> -->
+                </div>
+              </div>
+          </div><!-- Service1 end -->
+        </div><!-- Col 1 end -->
+
+        <div class="col-lg-3 col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/service2.png" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon2.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="service-single.html">Supervision</a></h3>
+                    <p>We supervise the place where we are going to build and do studies.</p>
+                    <!-- <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a> -->
+                </div>
+              </div>
+          </div><!-- Service2 end -->
+        </div><!-- Col 2 end -->
+
+        <div class="col-lg-3 col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/service3.png" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon3.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="service-single.html">Planning & Budget</a></h3>
+                    <p>We agree on a financing plan and project delivery times.</p>
+                    <!-- <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a> -->
+                </div>
+              </div>
+          </div><!-- Service3 end -->
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <div class="ts-service-box">
+              <div class="ts-service-image-wrapper">
+                <img loading="lazy" class="w-100" src="images/services/service4.png" alt="service-image">
+              </div>
+              <div class="d-flex">
+                <div class="ts-service-box-img">
+                    <img loading="lazy" src="images/icon-image/service-icon4.png" alt="service-icon" />
+                </div>
+                <div class="ts-service-info">
+                    <h3 class="service-box-title"><a href="service-single.html">Building</a></h3>
+                    <p>We start to build your ideas meeting the highest standards.</p>
+                    <!-- <a class="learn-more d-inline-block" href="service-single.html" aria-label="service-details"><i class="fa fa-caret-right"></i> Learn more</a> -->
+                </div>
+              </div>
+          </div><!-- Service3 end -->
+        </div><!-- Col 4 end -->
+    </div><!-- Content row end -->
+  </div><!-- Container end -->
+</section><!-- Feature are end -->
+
+<section id="facts" class="facts-area dark-bg">
+  <div class="container">
+    <div class="facts-wrapper">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 ts-facts">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/fact1.png" alt="facts-img">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="50">0</span></h2>
+                <h3 class="ts-facts-title">Total Projects</h3>
+              </div>
+          </div><!-- Col end -->
+
+          <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/fact2.png" alt="facts-img">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="21">0</span></h2>
+                <h3 class="ts-facts-title">Staff Members</h3>
+              </div>
+          </div><!-- Col end -->
+
+          <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/happy.png" alt="facts-img">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="45">0</span></h2>
+                <h3 class="ts-facts-title">Happy Clients</h3>
+              </div>
+          </div><!-- Col end -->
+
+          <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-md-0">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/bulid.png" alt="facts-img">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="4">0</span></h2>
+                <h3 class="ts-facts-title">Running Projects</h3>
+              </div>
+          </div><!-- Col end -->
+
+        </div> <!-- Facts end -->
     </div>
-</body>
-</html>
+    <!--/ Content row end -->
+  </div>
+  <!--/ Container end -->
+</section><!-- Facts end -->
+
+<section id="ts-service-area" class="ts-service-area pb-0">
+  <div class="container">
+    <div class="row text-center">
+        <div class="col-12">
+          <h2 class="section-title">We Are Specialists In</h2>
+          <h3 class="section-sub-title">What We Do</h3>
+        </div>
+    </div>
+    <!--/ Title row end -->
+
+    <div class="row">
+        <div class="col-lg-4">
+          <div class="ts-service-box d-flex">
+              <div class="ts-service-box-img">
+                <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+              </div>
+              <div class="ts-service-box-info">
+                <h3 class="service-box-title"><a href="#">Proposed new story buildings</a></h3>
+                <p>We build your dream houses or building structures with modern facilities to fulfill your expectations</p>
+              </div>
+          </div><!-- Service 1 end -->
+
+          <div class="ts-service-box d-flex">
+              <div class="ts-service-box-img">
+                <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+              </div>
+              <div class="ts-service-box-info">
+                <h3 class="service-box-title"><a href="#">Building Renovations</a></h3>
+                <p>Is your house look like dilapidated? Or do you desire to modernise? 
+                  Master King Constructions are fully guarantee to presents attractive with modernisation.</p>
+              </div>
+          </div><!-- Service 2 end -->
+
+          <div class="ts-service-box d-flex">
+              <div class="ts-service-box-img">
+                <img loading="lazy" src="images/icon-image/service-icon6.png"  alt="service-icon">
+              </div>
+              <div class="ts-service-box-info">
+                <h3 class="service-box-title"><a href="#">Masonry works</a></h3>
+                <p>Modern techniques are used in Masonry works according the current usage by our constructions.</p>
+              </div>
+          </div><!-- Service 3 end -->
+
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon6.png"  alt="service-icon">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Electrical works</a></h3>
+              <p>We provide the all electrical facilities during the constructions, as well as giving emergency electrical works, generator operating and etc by experienced electricians with a guarantee service. </p>
+            </div>
+          </div><!-- Service 4 end -->
+
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon6.png"  alt="service-icon">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Carpentry Works</a></h3>
+              <p> All Carpentry works are being processed in solid wooden materials by qualified carpenters with a reasonable rates available in our constructions.  </p>
+            </div>
+          </div><!-- Service 5 end -->
+
+        </div><!-- Col end -->
+
+        <div class="col-lg-4 text-center">
+          <img loading="lazy" class="img-fluid" src="images/services/service-center1.jpg" alt="service-avater-image">
+        </div><!-- Col end -->
+
+        <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
+          <div class="ts-service-box d-flex">
+              <div class="ts-service-box-img">
+                <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+              </div>
+              <div class="ts-service-box-info">
+                <h3 class="service-box-title"><a href="#">Tiles and Paving stones</a></h3>
+                <p>In order to gives more good looking and long-term utilise tiles and paving stones are provided by our constructions. </p>
+              </div>
+          </div><!-- Service 4 end -->
+
+          <div class="ts-service-box d-flex">
+              <div class="ts-service-box-img">
+                <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+              </div>
+              <div class="ts-service-box-info">
+                <h3 class="service-box-title"><a href="#">Building materials supply</a></h3>
+                <p>All types of building materials will be supplied to our constructions with quality and reasonable price value. </p>
+              </div>
+          </div><!-- Service 5 end -->
+
+          <div class="ts-service-box d-flex">
+              <div class="ts-service-box-img">
+                <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+              </div>
+              <div class="ts-service-box-info">
+                <h3 class="service-box-title"><a href="#">Land Surveying</a></h3>
+                <p>Land Surveying is measured with the help of Digital Theodolite by well experienced land surveyors and although the land is small-scale, we get the land approval to design your dream houses. </p>
+              </div>
+          </div><!-- Service 6 end -->
+
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Plumbing works</a></h3>
+              <p>
+                Our Plumbing experts provide the below services for you, <br>
+                1 - Installation of cooler and air conditions.  <br>
+                2 - Water supply and waste water pipe lining.  <br>
+                3 - Water purification facilities. <br>
+                4 - Sanitary and Bathroom fittings. <br>
+                5 - Maintenance and Repairs. 
+              </p>
+            </div>
+        </div><!-- Service 6 end -->
+
+        <div class="ts-service-box d-flex">
+          <div class="ts-service-box-img">
+            <img loading="lazy" src="images/icon-image/service-icon6.png" alt="service-icon">
+          </div>
+          <div class="ts-service-box-info">
+            <h3 class="service-box-title"><a href="#">Planning and 3D Elevation</a></h3>
+            <p>Master King Constructions expertise in designing 3D Elevation for duplex house, single story building, double story building and other building structures. </p>
+          </div>
+        </div><!-- Service 6 end -->
+
+        </div><!-- Col end -->
+    </div><!-- Content row end -->
+
+  </div>
+  <!--/ Container end -->
+</section><!-- Service end -->
+
+
+<!-- Project area end -->
+
+
+<section class="subscribe no-padding">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+          <div class="subscribe-call-to-acton">
+              <h3 style="color: rgb(200, 224, 245) !important;">Can We Help?</h3>
+              <h4>(+94) 77-784-9190</h4>
+          </div>
+        </div><!-- Col end -->
+
+        <div class="col-lg-8">
+          <div class="ts-newsletter row align-items-center">
+              <div class="col-md-5 newsletter-introtext">
+                <h4 class="text-white mb-0">Our Promotion Sign-up</h4>
+                <p class="text-white">Latest updates and news</p>
+              </div>
+
+              <div class="col-md-7 newsletter-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                      <label for="newsletter-email" class="content-hidden">Newsletter Email</label>
+                      <input type="email" name="email" id="newsletter-email" class="form-control form-control-lg" placeholder="Your your email and hit enter" autocomplete="off">
+                    </div>
+                </form>
+              </div>
+          </div><!-- Newsletter end -->
+        </div><!-- Col end -->
+
+    </div><!-- Content row end -->
+  </div>
+  <!--/ Container end -->
+</section>
+<!--/ subscribe end -->
+
+<section class="content">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12 mt-5 mt-lg-0">
+
+          <h3 class="column-title">OUR SUPPLIER</h3>
+
+          <div class="row all-clients">
+              <div class="col-sm-3 col-6">
+                <figure class="clients-logo">
+                    <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client1.png" alt="clients-logo" /></a>
+                </figure>
+              </div><!-- Client 1 end -->
+
+              <div class="col-sm-3 col-6">
+                <figure class="clients-logo">
+                    <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client2.png" alt="clients-logo" /></a>
+                </figure>
+              </div><!-- Client 2 end -->
+
+              <div class="col-sm-3 col-6">
+                <figure class="clients-logo">
+                    <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client3.png" alt="clients-logo" /></a>
+                </figure>
+              </div><!-- Client 3 end -->
+
+              <div class="col-sm-3 col-6">
+                <figure class="clients-logo">
+                    <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client4.png" alt="clients-logo" /></a>
+                </figure>
+              </div><!-- Client 4 end -->
+
+              <div class="col-sm-3 col-6">
+                <figure class="clients-logo">
+                    <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client5.png" alt="clients-logo" /></a>
+                </figure>
+              </div><!-- Client 5 end -->
+
+              <div class="col-sm-3 col-6">
+                <figure class="clients-logo">
+                    <a href="#!"><img loading="lazy" class="img-fluid" src="images/clients/client6.png" alt="clients-logo" /></a>
+                </figure>
+              </div><!-- Client 6 end -->
+
+          </div><!-- Clients row end -->
+
+        </div><!-- Col end -->
+
+    </div>
+    <!--/ Content row end -->
+  </div>
+  <!--/ Container end -->
+</section><!-- Content end -->
+
+
+
+<section id="news" class="news">
+  <div class="container">
+    <div class="row text-center">
+        <div class="col-12">
+          <h2 class="section-title">Work of Excellence</h2>
+          <h3 class="section-sub-title">Our Projects</h3>
+        </div>
+    </div>
+    <!--/ Title row end -->
+<?php include_once("main_query_blog.php"); ?>
+    <div class="row">
+    <?php if (!empty($recent_posts)): ?>
+      <?php foreach ($recent_posts as $post): ?>
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <div class="latest-post">
+
+              <div class="latest-post-media">
+                <a href="blog?site_name=<?php echo urlencode($post['site_name']); ?>&post_id=<?php echo $post['blog_id']; ?>" class="latest-post-img">
+                    <img loading="lazy" class="img-fluid" src="images/news/project1/<?php echo $post['cover_img']; ?>" alt="img">
+                </a>
+              </div>
+              <div class="post-body">
+                <h4 class="post-title">
+                    <a href="blog?site_name=<?php echo urlencode($post['site_name']); ?>&post_id=<?php echo $post['blog_id']; ?>" class="d-inline-block">
+                      <?php echo htmlspecialchars(truncateTitle($post['title'])); ?>
+                    </a>
+                </h4>
+                <div class="latest-post-meta">
+                    <span class="post-item-date">
+                      <i class="fa fa-clock-o"></i> <?php echo date("F j, Y", strtotime($post['published_date'])); ?>
+                    </span>
+                </div>
+              </div>
+          </div><!-- Latest post end -->
+          
+        </div><!-- 1st post col end -->
+        <?php endforeach; ?>
+        <?php else: ?>
+          <div class="latest-post">No recent posts available.</div>
+        <?php endif; ?>
+
+    </div>
+    <!--/ Content row end -->
+
+
+
+    <div class="general-btn text-center mt-4">
+        <a class="btn btn-primary" href="blog">See All Posts</a>
+    </div>
+
+  </div>
+  <!--/ Container end -->
+</section>
+<!--/ News end -->
+
+
+<!--BLOCK#2 end YOUR CODE HERE -->
+
+
+<!--BLOCK#3 START DON'T CHANGE THE ORDER-->
+<?php include_once("footer.php"); ?>
+<!--END DON'T CHANGE THE ORDER-->
