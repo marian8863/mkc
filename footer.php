@@ -9,13 +9,13 @@
             <p>Master King Constructions are be able to deliver the quality construction solutions on time and to budget because of advanced technical man power resources and well trained skill workers, for the effect of it can undertake all levels of projects in anywhere in Sri Lanka.</p>
             <div class="footer-social">
               <ul>
-                <li><a href="https://www.facebook.com/MKCo2020" aria-label="Facebook"><i
+                <li><a target="_blank" href="https://www.facebook.com/MKCo2020" aria-label="Facebook" ><i
                       class="fab fa-facebook-f"></i></a></li>
                 <!-- <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
                 </li>
-                <li><a href="https://www.instagram.com/masterkingconstructions/profilecard/?igsh=MTlueWZheWNjbnQxMQ%3D%3D" aria-label="Instagram"><i
+                <li><a target="_blank" href="https://www.instagram.com/masterkingconstructions/profilecard/?igsh=MTlueWZheWNjbnQxMQ%3D%3D" aria-label="Instagram" ><i
                       class="fab fa-instagram"></i></a></li>
-                <!-- <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li> -->
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=JwirO3hHJ7Y&t=1s" aria-label="Youtube"><i class="fab fa-youtube" ></i></a></li>
               </ul>
             </div><!-- Footer social end -->
           </div><!-- Col end -->

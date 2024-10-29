@@ -12,18 +12,18 @@
               <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
                 <ul class="list-unstyled">
                     <li>
-                      <a title="Facebook" href="https://www.facebook.com/MKCo2020">
+                      <a target="_blank" title="Facebook" href="https://www.facebook.com/MKCo2020">
                           <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
                       </a>
                       <!-- <a title="Twitter" href="https://twitter.com/themefisher.com">
                           <span class="social-icon"><i class="fab fa-twitter"></i></span>
                       </a> -->
-                      <a title="Instagram" href="https://www.instagram.com/masterkingconstructions/profilecard/?igsh=MTlueWZheWNjbnQxMQ%3D%3D">
+                      <a target="_blank" title="Instagram" href="https://www.instagram.com/masterkingconstructions/profilecard/?igsh=MTlueWZheWNjbnQxMQ%3D%3D">
                           <span class="social-icon"><i class="fab fa-instagram"></i></span>
                       </a>
-                      <!-- <a title="Linkdin" href="https://github.com/themefisher.com">
-                          <span class="social-icon"><i class="fab fa-github"></i></span>
-                      </a> -->
+                      <a target="_blank" title="Youtube" href="https://www.youtube.com/watch?v=JwirO3hHJ7Y&t=1s">
+                          <span class="social-icon"><i class="fab fa-youtube"></i></span>
+                      </a>
                     </li>
                 </ul>
               </div>
