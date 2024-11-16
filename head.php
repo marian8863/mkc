@@ -41,6 +41,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 ================================================== -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website" />
 <meta name="description" content="Master King Constructions fulfills your expectations by emphasizing Quantity, Quality, and Speed. Trust us to deliver excellence in every project.">
 <meta name="keywords" content="Master King Constructions, construction services, quality construction, reliable contractor, building projects, construction management, renovation, residential construction, commercial construction">
 <meta name="author" content="Master King Constructions">
@@ -48,13 +49,18 @@ FACEBOOK: https://www.facebook.com/themefisher
 <meta property="og:title" content="Master King Constructions - Building Your Dreams">
 <meta property="og:description" content="Master King Constructions delivers exceptional construction services focusing on Quantity, Quality, and Speed. Trust us for your next project.">
 <!-- <meta property="og:image" content="images/logo-or-image.jpg"> -->
-<meta property="og:url" content="https://www.masterkingconstructions.com/images/share_logo.jpg">
+<meta property="og:url" content="https://www.masterkingconstructions.com/">
 <meta property="og:image" content="https://masterkingconstructions.com/images/share_logo.jpg" />
-<meta property="og:type" content="website" />
 <!-- <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Master King Constructions">
 <meta name="twitter:description" content="We fulfill your construction expectations through our commitment to Quantity, Quality, and Speed.">
 <meta name="twitter:image" content="path/to/your/logo-or-image.jpg"> -->
+
+
+
+<!-- Open Graph / Facebook -->
+
+
 
 
   <!-- Favicon
