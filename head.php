@@ -50,7 +50,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 <meta property="og:description" content="Master King Constructions delivers exceptional construction services focusing on Quantity, Quality, and Speed. Trust us for your next project.">
 <!-- <meta property="og:image" content="images/logo-or-image.jpg"> -->
 <meta property="og:url" content="https://www.masterkingconstructions.com/">
-<meta property="og:image" content="https://masterkingconstructions.com/images/share_logo.jpg" />
+<meta property="og:image" content="https://masterkingconstructions.com/images/share_logo.png" />
 <!-- <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Master King Constructions">
 <meta name="twitter:description" content="We fulfill your construction expectations through our commitment to Quantity, Quality, and Speed.">
