@@ -48,8 +48,8 @@ FACEBOOK: https://www.facebook.com/themefisher
 <meta property="og:title" content="Master King Constructions - Building Your Dreams">
 <meta property="og:description" content="Master King Constructions delivers exceptional construction services focusing on Quantity, Quality, and Speed. Trust us for your next project.">
 <!-- <meta property="og:image" content="images/logo-or-image.jpg"> -->
-<meta property="og:url" content="https://www.masterkingconstructions.com/images/logo-or-image.jpg">
-<meta property="og:image" content="https://masterkingconstructions.com/images/logo-or-image.jpg" />
+<meta property="og:url" content="https://www.masterkingconstructions.com/images/share_logo.jpg">
+<meta property="og:image" content="https://masterkingconstructions.com/images/share_logo.jpg" />
 <meta property="og:type" content="website" />
 <!-- <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Master King Constructions">
